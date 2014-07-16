@@ -1,0 +1,75 @@
+$black: #000;
+
+@mixin display-4 {
+	color: lighten($black, 46%);
+	font-size: 7em;
+	font-weight: 300;
+	line-height: 1.0667;
+}
+
+@mixin display-3 {
+	color: lighten($black, 46%);
+	font-size: 3.5em;
+	font-weight: 400;
+	line-height: 1.0667;
+}
+
+@mixin display-2 {
+	color: lighten($black, 46%);
+	font-size: 2.8125em;
+	font-weight: 400;
+	line-height: 1.0667;
+}
+
+@mixin display-1 {
+	color: lighten($black, 46%);
+	font-size: 2.125em;
+	font-weight: 400;
+	line-height: 1.1764;
+}
+
+@mixin headline {
+	color: lighten($black, 13%);
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 1.3333;
+}
+
+@mixin title {
+	color: lighten($black, 13%);
+	font-size: 1.25em;
+	font-weight: 600;
+	line-height: 1.3333;
+}
+
+@mixin subhead {
+	color: lighten($black, 13%);
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+@mixin body( $weight: 300, $height: 1.4286 ) {
+	color: lighten($black, 13%);
+	font-size: 0.875em;
+	font-weight: $weight;
+	line-height: $height;
+}
+
+@mixin caption {
+	color: lighten($black, 46%);
+	font-size: 0.75em;
+}
+
+@mixin menu {
+	color: lighten($black, 13%);
+	font-size: 0.875em;
+	font-weight: 600;
+}
+
+@mixin button {
+	color: lighten($black, 13%);
+	font-size: 0.875em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
